@@ -10,7 +10,22 @@ tags:
 layout: layouts/post.njk
 ---
 
-Wow. 2019 an incredibly busy, incredibly productive year. So how'd we do?
+Wow. 2019 was an incrediblely busy and productive year. Here's some highlights + thoughts on where I'm going!
+
+
+## Speaking
+
+In 2019 I had the privilege of speaking at 3 different tech conferences in two countries!
+
+- Drupalcon Seattle 
+- Drupal Camp Poland 2019
+- Design4Drupal 2019
+
+Things unfortunately didn't pan out with the other conferences I submitted proposals for (Drupalcon Amsterdam, Design Systems London, JS Conf Honolulu 2020, and PerfMatters 2020) _however_ I'm not giving up! 
+
+## 
+
+
 
 
 ## 2019: Design Systems, Web Components, and Front-end Architecture, oh my!
@@ -31,7 +46,6 @@ Performance
 
 - 59 releases of the Bolt Design System!
 - Pattern Lab's new UI was almost entirely rebuilt and more importantly, released!
-- I was a speaker at 3 tech conferences!
 - Things got a lot faster (especially w/ perceived performance):
   - [3G](https://www.webpagetest.org/video/compare.php?tests=200126_0W_98f86373dc4fec7e9e1bfc79095b2d5e%2C200126_CG_b4640f04a7543f522012fd5171929b85&thumbSize=200&ival=100&end=all)
   - [Slow 3G](https://www.webpagetest.org/video/compare.php?tests=200126_J0_873e7c09c6eb745220a148d4b6291784%2C200126_82_e55de204403e45ddfb823de2e9c06903&thumbSize=200&ival=100&end=all)
