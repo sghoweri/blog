@@ -13,13 +13,13 @@ layout: layouts/post.njk
 Wow. 2019 an incredibly busy, incredibly productive year. So how'd we do?
 
 
-# Design Systems, Web Components, and Front-end Architecture
+## 2019: Design Systems, Web Components, and Front-end Architecture, oh my!
 
 If you <a href="https://twitter.com/salem_ghoweri">follow me on Twitter</a> (or know me personally) then you already know that I'm a lead front-end architect who's a crazy HUGE fan of design systems and web components! Naturally it shouldn't come as a surprise then that my last past couple years have been filled to the brim with that stuff -- and 2019 was no exception!
 
 
 
-# 5 Initiatves for 2019
+## 5 Initiatves for 2019
 A little over a year ago, towards the end of 2018, we identified 5 primary initiatives to focus on for 2019, based on the areas we were hurting the most + anticipation   
 
 
@@ -33,9 +33,9 @@ Performance
 - Pattern Lab's new UI was almost entirely rebuilt and more importantly, released!
 - I was a speaker at 3 tech conferences!
 - Things got a lot faster (especially w/ perceived performance):
-  - 3G: https://www.webpagetest.org/video/compare.php?tests=200126_0W_98f86373dc4fec7e9e1bfc79095b2d5e%2C200126_CG_b4640f04a7543f522012fd5171929b85&thumbSize=200&ival=100&end=all
-  - Slow 3G: https://www.webpagetest.org/video/compare.php?tests=200126_J0_873e7c09c6eb745220a148d4b6291784%2C200126_82_e55de204403e45ddfb823de2e9c06903&thumbSize=200&ival=100&end=all
-  - Desktop: https://www.webpagetest.org/video/compare.php?tests=200126_PF_68301abfcd65bc42e6bad972fcc8c4c0%2C200126_NY_276a397812ff517e3ee4c135b639c8ef&thumbSize=200&ival=100&end=all
+  - [3G](https://www.webpagetest.org/video/compare.php?tests=200126_0W_98f86373dc4fec7e9e1bfc79095b2d5e%2C200126_CG_b4640f04a7543f522012fd5171929b85&thumbSize=200&ival=100&end=all)
+  - [Slow 3G](https://www.webpagetest.org/video/compare.php?tests=200126_J0_873e7c09c6eb745220a148d4b6291784%2C200126_82_e55de204403e45ddfb823de2e9c06903&thumbSize=200&ival=100&end=all)
+  - [Desktop](https://www.webpagetest.org/video/compare.php?tests=200126_PF_68301abfcd65bc42e6bad972fcc8c4c0%2C200126_NY_276a397812ff517e3ee4c135b639c8ef&thumbSize=200&ival=100&end=all)
 
 - Fully Loaded Size: 1,053KB (before) vs 794KB (after)
 - went from having ~15 to ~35 web components (plus an additional 9 experimental animation components)
