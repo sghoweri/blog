@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("post", "./src/layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -33,10 +33,10 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/css");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
@@ -54,7 +54,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
+        const content_404 = fs.readFileSync('./_site/404.html');
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -91,7 +91,7 @@ module.exports = function(eleventyConfig) {
 
     // These are all optional, defaults are shown:
     dir: {
-      input: ".",
+      input: "./src",
       includes: "_includes",
       data: "_data",
       output: "_site"

@@ -1,10 +1,10 @@
-# eleventy-base-blog
+# Salem Ghoweri's Blog
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+Professional blog + website powered by [Eleventy](https://github.com/11ty/eleventy).
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+[![Build Status](https://travis-ci.org/sghoweri/blog.svg?branch=master)](https://travis-ci.org/sghoweri/blog)
 
-## Demos
+<!-- ## Demos
 
 * [Netlify](https://eleventy-base-blog.netlify.com/)
 * [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
@@ -74,4 +74,4 @@ DEBUG=* npx eleventy
   * `_includes/layouts/base.njk`: the top level HTML structure
   * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
   * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it. -->
