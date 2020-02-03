@@ -15,4 +15,4 @@ I'm a lead front-end architect who really gives a damn about my work, my team, a
 - Extremely active <a href="https://github.com/sghoweri" target="_blank">open source contributor</a>
 - International conference speaker
 
-If you ever want to chat about design systems, web components, progressive enhancement, or front-end architecture, ping me on <a href="https://www.linkedin.com/in/salemghoweri" target=_blank">LinkedIn</a> or <a href="https://www.twitter.com/salem_ghoweri" target=_blank">Twitter</a>!
+<p>If you ever want to chat about design systems, web components, progressive enhancement, or front-end architecture, ping me on <a href="https://www.linkedin.com/in/salemghoweri" target=_blank">LinkedIn</a> or <a href="https://www.twitter.com/salem_ghoweri" target=_blank">Twitter</a>!</p>
